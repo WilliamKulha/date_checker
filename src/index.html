@@ -11,6 +11,32 @@
     <div class="jumbotron">
         <h1>What Day Was That Again?</h1>
     </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="the-form">
+          <h3 class="text-center">Just input a date below and we'll let you know what day of the week it fell on.</h3>
+          <form id="user-input">
+            <div class="form-group">
+              <label for="user-date">Date:</label>
+              <input id="user-date" type="date">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-info">What day was that?</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="results">
+          <div class="text-center">
+            <h3>Results</h3>
+            <p><span class="user-input-date-here"></span> was a <span class="user-input-weekday"></span>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
