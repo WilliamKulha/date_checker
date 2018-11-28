@@ -1,3 +1,4 @@
 export const convertDay = (dayAsNumber) => {
-  return `hi ${dayAsNumber}`;
-}
+  let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  return weekdays[dayAsNumber];
+};
