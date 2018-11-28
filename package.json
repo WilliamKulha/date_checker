@@ -1,5 +1,5 @@
 {
-  "name": "Date Checker",
+  "name": "date-checker",
   "version": "1.0.0",
   "description": "A simple webpage that tells a user the day of the week for any given date",
   "main": "index.js",
