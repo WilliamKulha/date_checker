@@ -17,7 +17,8 @@ A simple webpage that allows a user to input a date and returns what day of the 
 
 * To view project code, _clone repository from_ https://github.com/zangiboy/date_checker
 * To install the project on your own machine, clone the repository from command line <code>$ git clone https://github.com/zangiboy/date_checker</code>.
-* Navigate to the projects directory using CLI and install dependencies <code>npm install</code>.
+* Navigate to the projects directory using CLI and install dependencies <code>$ npm install</code>.
+* Build the project using CLI <code>$ npm run build</code>
 * Open the index.html from the dist/ directory with the browser of your choice.
 
 ## Known Bugs
